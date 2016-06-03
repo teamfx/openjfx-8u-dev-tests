@@ -1,0 +1,10 @@
+/*
+Test for JDK-8093583, Regression with @import in CSS
+*/
+
+@import "css/cssFile1.css";
+@import "css/cssFile2.css";
+
+.class_c {
+    -fx-min-width: 100;
+}
