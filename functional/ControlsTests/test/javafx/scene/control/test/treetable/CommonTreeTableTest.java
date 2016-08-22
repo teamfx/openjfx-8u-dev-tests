@@ -72,7 +72,7 @@ public class CommonTreeTableTest extends ApplicationInteractionFunctions {
 
     /**
      * 8158784: [TEST BUG] Need test for JDK-8157398
-     */    
+     */
     @Test
     public void testCollapsedNodeGraphicVisible() throws Exception {
         Color nodeColor = new Color(Math.random(), Math.random(), Math.random(), 1);
